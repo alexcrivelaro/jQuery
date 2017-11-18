@@ -19,7 +19,7 @@ Ou tudo de uma só vez:
 var tira = $.trim($('#palavras').html());
 
 Pegar um elemento por vez:
-$('li').each(function(){
+$('li').each(function() {
     alert($(this).html());
 });
 
