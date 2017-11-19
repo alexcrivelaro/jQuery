@@ -1,26 +1,24 @@
 $(function(){
-
-    
-
-    $('button').mouseover(function(){
+  
+    $('#botao1').mouseover(function(){
         $(this).addClass('fundoVermelho');
     });
-    $('button').mouseout(function(){
+    $('#botao1').mouseout(function(){
         $(this).removeClass('fundoVermelho');
     });
 
-    $('button').click(function(){
+    $('#botao2').click(function(){
         $(this).toggleClass('fundoVermelho');
-
-     if($(this).hasClass("fundoVermelho")){
-            $(this).removeClass('fundoVermelho');
-        } else {
-            $(this).addClass('fundoVermelho');
-        }
-    
-                
     });
-});
+
+     if($('#botao3').hasClass("fundoVermelho")){
+            $('#botao3').removeClass('fundoVermelho');
+        } else {
+            $('#botao3').addClass('fundoVermelho');
+        }
+                 
+    });
+
 
 /*
 toogle - se eu der esse comando ele verifica se tem a classe 
