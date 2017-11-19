@@ -11,16 +11,23 @@ $(function(){
         $(this).toggleClass('fundoVermelho');
     });
 
-     if($('#botao3').hasClass("fundoVermelho")){
+    /*
+    toogle - se eu der esse comando ele verifica se tem a classe 
+    se tiver vai colocar a classe, se não tira a classe
+    */
+
+});
+
+$(function(){
+
+      if($('#botao3').hasClass("fundoVermelho")){
             $('#botao3').removeClass('fundoVermelho');
         } else {
             $('#botao3').addClass('fundoVermelho');
         }
-                 
     });
 
+                 
 
-/*
-toogle - se eu der esse comando ele verifica se tem a classe 
-se tiver vai colocar a classe, se não tira a classe
-*/
+
+
